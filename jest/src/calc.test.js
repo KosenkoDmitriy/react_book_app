@@ -1,6 +1,6 @@
-require('./calc.js')
+import { add, divide, multiply, substract } from './calc'
 
-describe('calculator', function() {
+describe('calculator', () => {
 
   describe('should perform addition', () => {
     it('adds two positive numbers', () => {

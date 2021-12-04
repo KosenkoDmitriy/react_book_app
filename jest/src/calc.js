@@ -1,14 +1,7 @@
-function add(x, y) {
-  return x + y
-}
-substract = (x, y) => {
-  return x - y
-}
-multiply = (x, y) => {
-  return x * y
-}
-divide = (x, y) => {
-  return x / y
-}
 
-module.exports = add
+const add = (x, y) => x + y
+const substract = (x, y) => x - y
+const multiply = (x, y) => x * y
+const divide = (x, y) => x / y
+
+export { add, divide, multiply, substract }
